@@ -110,3 +110,11 @@ ul {
 .advantage-item p {
   grid-column: 2;
 }
+
+.footer {
+  padding: 2.5rem;
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
