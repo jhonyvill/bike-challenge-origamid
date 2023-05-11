@@ -69,6 +69,7 @@ ul {
   height: 100%;
   display: block;
   object-fit: cover;
+  object-position: top right;
 }
 
 .info {
@@ -180,7 +181,7 @@ ul {
     gap: 1.8rem;
   }
 
-  .content {
+  .content-advantage {
     grid-template-columns: 1fr;
   }
 
