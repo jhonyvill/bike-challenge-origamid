@@ -72,6 +72,7 @@ ul {
 }
 
 .info {
+  background-color: #ffffff;
   padding: 2.5rem;
   text-align: right;
   display: grid;
@@ -106,7 +107,8 @@ ul {
   background-color: #900;
 }
 
-.advantage {
+.advantage-list {
+  background-color: #ffffff;
   padding: 2.5rem;
 }
 
