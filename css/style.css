@@ -73,10 +73,21 @@ ul {
   gap: 1.25rem;
   align-content: center;
   justify-items: end;
+  position: relative;
 }
 
 .info h1 {
   font-size: 2rem;
+}
+
+.info::before {
+  content: "";
+  height: 4px;
+  width: 60px;
+  background-color:  #ee2211;
+  position: absolute;
+  margin-right: -30px;
+  margin-top: 30px;
 }
 
 .btn {
