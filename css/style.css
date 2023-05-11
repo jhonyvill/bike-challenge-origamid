@@ -51,6 +51,11 @@ ul {
   border-radius: 2px;
   background-color: #ffffff;
   text-transform: uppercase;
+  border: 2px solid transparent;
+}
+
+.menu a:hover {
+  border-color: #ee2211;
 }
 
 .content {
@@ -84,7 +89,7 @@ ul {
   content: "";
   height: 4px;
   width: 60px;
-  background-color:  #ee2211;
+  background-color: #ee2211;
   position: absolute;
   margin-right: -30px;
   margin-top: 30px;
@@ -94,7 +99,11 @@ ul {
   color: #ffffff;
   padding: 0.938rem 1.875rem;
   border-radius: 4px;
-  background-color:  #ee2211;
+  background-color: #ee2211;
+}
+
+.btn:hover {
+  background-color: #900;
 }
 
 .advantage {
@@ -108,7 +117,7 @@ ul {
   color: rgba(0, 0, 0, 0.2);
   align-self: center;
   padding: 2.5rem;
-  background-image: url('../img/wave.svg');
+  background-image: url("../img/wave.svg");
 }
 
 .advantage-item {
@@ -116,6 +125,14 @@ ul {
   grid-template-columns: auto 1fr;
   gap: 0.625rem 1.25rem;
   padding: 1.25rem;
+}
+
+.advantage-item:hover {
+  border-left: 4px solid #ee2211;
+}
+
+.advantage-item:nth-child(odd) {
+  background-color: #f7f7f7;
 }
 
 .advantage-item p {
