@@ -85,3 +85,28 @@ ul {
   border-radius: 4px;
   background-color:  #ee2211;
 }
+
+.advantage {
+  padding: 2.5rem;
+}
+
+.advantage-title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.2);
+  align-self: center;
+  padding: 2.5rem;
+  background-image: url('../img/wave.svg');
+}
+
+.advantage-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.625rem 1.25rem;
+  padding: 1.25rem;
+}
+
+.advantage-item p {
+  grid-column: 2;
+}
